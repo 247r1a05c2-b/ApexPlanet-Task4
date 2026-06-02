@@ -91,15 +91,11 @@ Automated attendance management system using OpenCV and Face Recognition.
 ---
 
 ## 🔗 GitHub Repository
-
-Add your repository link here
-
+https://github.com/247r1a05c2-b/ApexPlanet-Task4.git
 ---
 
 ## 🔗 LinkedIn Post
-
-Add your LinkedIn post link here
-
+https://www.linkedin.com/posts/shaik-irfan-0a5b0b326_webdevelopment-html-css-activity-7467641397710524416-LmQC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFJj7r0BJ6rD64f5hVzbp05GfVt7R5X37yQ
 ---
 
 ## 👨‍💻 Author
