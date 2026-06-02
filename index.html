@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+Shaik Irfan Hussain Portfolio
+</title>
+
+<link rel="stylesheet"
+href="style.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+<div class="logo">
+SIH Portfolio
+</div>
+
+<ul class="nav-links">
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#skills">Skills</a></li>
+
+<li><a href="#projects">Projects</a></li>
+
+<li><a href="#todo">To-Do</a></li>
+
+<li><a href="#products">Products</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+<!-- HERO -->
+
+<section
+id="home"
+class="hero">
+
+<img
+src="images/profile.jpeg"
+alt="Profile"
+class="profile-img">
+
+<h1>
+Shaik Irfan Hussain
+</h1>
+
+<h3>
+AI/ML Engineer | Web Developer
+</h3>
+
+<p>
+
+Building intelligent applications using
+Machine Learning, NLP, Computer Vision
+and Modern Web Technologies.
+
+</p>
+
+<a
+href="#projects"
+class="btn">
+
+View Projects
+
+</a>
+
+</section>
+
+<!-- ABOUT -->
+
+<section
+id="about"
+class="section">
+
+<h2>
+About Me
+</h2>
+
+<div class="card">
+
+<p>
+
+I am a Computer Science Engineering
+student at CMR Technical Campus.
+
+I have experience in AI/ML,
+Machine Learning, NLP,
+Computer Vision, Web Development,
+DSA and Database Management Systems.
+
+I enjoy building real-world applications
+that solve practical problems.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- SKILLS -->
+
+<section
+id="skills"
+class="section">
+
+<h2>
+Technical Skills
+</h2>
+
+<div class="skills-grid">
+
+<div class="skill">
+Python
+</div>
+
+<div class="skill">
+Java
+</div>
+
+<div class="skill">
+C
+</div>
+
+<div class="skill">
+JavaScript
+</div>
+
+<div class="skill">
+HTML
+</div>
+
+<div class="skill">
+CSS
+</div>
+
+<div class="skill">
+MySQL
+</div>
+
+<div class="skill">
+Machine Learning
+</div>
+
+<div class="skill">
+NLP
+</div>
+
+<div class="skill">
+Computer Vision
+</div>
+
+<div class="skill">
+DSA
+</div>
+
+<div class="skill">
+DBMS
+</div>
+
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section
+id="projects"
+class="section">
+
+<h2>
+Projects
+</h2>
+
+<div class="projects-grid">
+
+<div class="project-card">
+
+<img
+src="images/disease-prediction.png"
+alt="Disease Prediction">
+
+<h3>
+AI Multi-Domain Disease Prediction
+</h3>
+
+<p>
+
+Healthcare prediction platform
+using Machine Learning and Streamlit.
+
+</p>
+
+<a
+target="_blank"
+href="https://github.com/247r1a05c2-b/AI-Multi-Domain-Disease-Prediction">
+
+GitHub
+
+</a>
+
+</div>
+
+<div class="project-card">
+
+<img
+src="images/resume-screening.png"
+alt="Resume Screening">
+
+<h3>
+AI Resume Screening System
+</h3>
+
+<p>
+
+AI powered candidate screening
+and ranking platform.
+
+</p>
+
+<a
+target="_blank"
+href="https://github.com/247r1a05c2-b/Resume-Screening-For-Company-s">
+
+GitHub
+
+</a>
+
+</div>
+
+<div class="project-card">
+
+<img
+src="images/face-attendance.png"
+alt="Face Attendance">
+
+<h3>
+Face Recognition Attendance System
+</h3>
+
+<p>
+
+Attendance automation using
+OpenCV and Face Recognition.
+
+</p>
+
+<a
+target="_blank"
+href="https://github.com/247r1a05c2-b/face-recognition-attendance">
+
+GitHub
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- TODO APP -->
+
+<section
+id="todo"
+class="section">
+
+<h2>
+To-Do Application
+</h2>
+
+<div class="todo-container">
+
+<input
+id="taskInput"
+type="text"
+placeholder="Enter a task">
+
+<button
+onclick="addTask()">
+
+Add Task
+
+</button>
+
+<ul id="taskList"></ul>
+
+</div>
+
+</section>
+
+<!-- PRODUCT LISTING -->
+
+<section
+id="products"
+class="section">
+
+<h2>
+Product Listing
+</h2>
+
+<div class="controls">
+
+<select id="filterCategory">
+
+<option value="all">
+All Categories
+</option>
+
+<option value="Laptop">
+Laptop
+</option>
+
+<option value="Accessories">
+Accessories
+</option>
+
+</select>
+
+<select id="sortPrice">
+
+<option value="default">
+Sort Products
+</option>
+
+<option value="low">
+Low To High
+</option>
+
+<option value="high">
+High To Low
+</option>
+
+</select>
+
+<button
+onclick="filterProducts()">
+
+Apply
+
+</button>
+
+</div>
+
+<div
+id="productContainer"
+class="products-grid">
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section
+id="contact"
+class="section">
+
+<h2>
+Contact Me
+</h2>
+
+<div class="contact-card">
+
+<p>
+📧 shaikirfan2732007@gmail.com
+</p>
+
+<p>
+📱 +91 7396480852
+</p>
+
+<p>
+💻 github.com/247r1a05c2-b
+</p>
+
+<p>
+💼 linkedin.com/in/shaik-irfan-0a5b0b326
+</p>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<p>
+
+© 2026 Shaik Irfan Hussain
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
